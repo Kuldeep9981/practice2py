@@ -1,0 +1,20 @@
+class information:
+
+  def __init__(self,name,age):
+    self.name = name
+    self.age = age
+  def info(self):
+    print(f"the {self.name} is {self.age} year old") 
+a=information("harry",20)
+b=information("neetu",22)
+b.name = "kuldeep"
+a.info()
+b.info()
+
+class marks:
+  name = "kuldeep"
+  sem  = 7.21
+  sem2 = 6.62
+a = marks()
+print("the marks of" ,a.name,"in sem 1st is ",a.sem,"and 2nd sem is")
+  
